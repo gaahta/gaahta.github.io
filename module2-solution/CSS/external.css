@@ -38,3 +38,73 @@
 				margin: 20px;
 				padding-top: 10px;
 			}
+		
+			/* Responsive framework. */
+			/*.box1 {
+				width: 50%;
+				float: left;
+			}
+			.box2 {
+				width: 50%;
+				float: right;
+			}
+			.box3 {
+				width: 100%;
+				float: left;
+			}*/
+	
+
+
+
+			 /*Large devices*/
+		@media (min-width: 992px) {
+			.box1 {
+				width: 30%;
+				float: left;
+				margin-left: 40px;
+			}
+			.box2 {
+				width: 30%;			
+				float: left;
+			}
+			.box3 {
+				width: 30%;
+				float: left;
+				}			
+			}
+
+			 /*Medium device */
+		@media (min-width: 767px) and (max-width: 991px) {
+			.box1 {
+				width: 47%;
+				float: left;
+				
+			}
+			.box2 {
+				width: 47%;
+				float: right;
+				;
+			}
+			.box3 {
+				width: 97.5%;
+				float: left;
+				font-size: 14px
+			 }
+			}
+			/* Mobile*/
+		@media (min-width: 0px) and (max-width: 766px) {
+			.box1 {
+				width: 95%;
+				float: left;
+				
+						}
+			.box2 {
+				width: 95%;
+				float: left;
+				
+				}
+			.box3 {
+				width: 95%;
+				float: left;				
+			 	}				
+			}
