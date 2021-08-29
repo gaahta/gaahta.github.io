@@ -1,0 +1,40 @@
+#h1 {
+			text-align: center;
+			font-family: fantasy;
+			}
+		div.container {
+			align-items: center;
+			align-content: center;
+		}
+		.box1, .box2, .box3 {
+			border: 1px solid black;
+			padding-top: 0px;
+			background-color: grey;
+			margin: 10px;
+			font-family: monospace;
+			color: black;
+			}	
+		#chicken, #beef, #sushi {
+			border: 1px solid black;
+			text-align: center;
+			position: relative;
+			margin: -1px;
+			float:right;
+			width: 50%;
+			}
+
+			#chicken {
+				background-color: #FFB6C1;
+										
+			}
+			#beef {
+				background-color: brown;
+				color: white;				
+			}
+			#sushi {
+				background-color: khaki;				
+			}
+			.section1, .section2, .section3 {
+				margin: 20px;
+				padding-top: 10px;
+			}
