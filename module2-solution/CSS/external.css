@@ -74,7 +74,7 @@
 			}
 
 			 /*Medium device */
-		@media (min-width: 767px) and (max-width: 991px) {
+		@media (min-width: 767px) and (max-width: 991.9px) {
 			.box1 {
 				width: 47%;
 				float: left;
